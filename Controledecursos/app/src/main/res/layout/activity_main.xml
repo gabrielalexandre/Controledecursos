@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10px"
+        android:background="#CEFFEF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selecionar_cadastro"
+                android:layout_gravity="center"
+                android:textSize="22dp"
+                android:textColor="#000000"/>
+
+
+            <Button
+                android:id="@+id/botao_aluno"
+                android:layout_width="400px"
+                android:layout_height="200px"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/custom_button"
+                android:onClick="aluno"
+                android:text="@string/botao_aluno"
+                android:textColor="#000000"
+                android:textSize="22dp" />
+
+            <Button
+                android:id="@+id/botao_curso"
+                android:layout_width="400px"
+                android:layout_height="200px"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_button"
+                android:onClick="curso"
+                android:text="@string/botao_cursos"
+                android:textColor="#000000"
+                android:textSize="22dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

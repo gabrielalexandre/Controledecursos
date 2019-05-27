@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Controle de cursos</string>
+    <string name="selecionar_cadastro">"Selecione a opção a ser cadastrada"</string>
+    <string name="botao_cursos">"Cursos"</string>
+    <string name="botao_aluno">"Alunos"</string>
+    <string name="aluno_id">"ID aluno"</string>
+    <string name="aluno_nome">"Nome"</string>
+    <string name="aluno_email">"E-mail"</string>
+    <string name="aluno_telefone">"Telefone"</string>
+    <string name="bt_cadastro_aluno">"Cadastrar aluno"</string>
+    <string name="bt_ver_bd">"Alunos cadastrados"</string>
+    <string name="curso_id">"ID curso"</string>
+    <string name="curso_nome">"Nome curso"</string>
+    <string name="curso_horas">"Quantidade de horas"</string>
+    <string name="bt_cadastrar_curso">"Cadastrar curso"</string>
+    <string name="alunos_cadastrados">"Alunos cadastrados"</string>
+</resources>

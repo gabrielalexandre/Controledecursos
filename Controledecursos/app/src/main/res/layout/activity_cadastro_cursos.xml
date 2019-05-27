@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroCursos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20px"
+        android:paddingLeft="20px"
+        android:paddingRight="20px"
+        android:background="#CEFFEF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curso_nome"
+                android:textSize="22dp"
+                android:layout_marginTop="15px"
+                android:textColor="#000000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/nomeCurso"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/curso_horas"
+                android:textSize="22dp"
+                android:layout_marginTop="15px"
+                android:textColor="#000000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:id="@+id/qtdHoras"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btnCadastroCurso"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_button2"
+                android:onClick="cadastro"
+                android:text=""
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnVerCursos"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_button2"
+                android:onClick="verCurso"
+                android:text="Ver cursos cadastrados"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
